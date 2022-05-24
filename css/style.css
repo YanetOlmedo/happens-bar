@@ -1,0 +1,504 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+
+.body {
+    
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 1.1em;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.body ul{
+
+    list-style-type: none;
+
+}
+
+
+.header {
+    position: fixed;
+    height: 11%;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    z-index: 1;
+
+}
+
+
+.header .logo {
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 0.3em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1.6em;
+
+}
+
+
+.nav {
+    
+    display: flex;
+    padding: 0.2em;
+    text-decoration: none;
+    width: 100vw;
+    background-color: black;
+    justify-content: space-evenly;
+
+}
+
+
+.header a {
+
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.header a:hover{
+
+    color: rgba(143, 143, 143, 0.813);
+}
+
+
+.principal {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("/media/aperol-spritz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+.principal h1 {
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: 0.1em;
+    font-size: 3.6em;
+    color: white;
+
+}
+
+
+.principal h2 {
+
+    padding: 1em;
+    font-size: 2em;
+    color: white;
+
+}
+
+
+.color-acento{
+
+    font-weight: bold;
+
+}
+
+/*Seccion Quienes somos*/
+.lista-somos li{
+    
+    text-align: left;
+    list-style-type: disc;
+
+}
+
+
+.somos-contacto {
+    
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+ 
+}
+
+
+.somos-contacto a:hover {
+
+    color: rgba(61, 61, 61, 0.711);
+
+}
+
+.somos-happens .container {
+
+    display: flex;
+    flex-grow: inherit;
+    text-align: center;
+    padding: 3em 2em;
+    font-size: 1em;
+
+}
+
+
+/*Seccion Sucursales*/
+.sucursales-container {
+
+    padding: 2em;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    
+}
+
+
+.sucursales-container h2 {
+    
+    font-size: 2em;
+    
+}
+
+
+.sucursales-container p {
+
+    display: none;
+
+}
+
+
+.sucursales-container .carta {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-position: center center;
+    background-size: cover;
+    padding: 15%;
+    margin: 11% auto;
+    border-radius: 15px;
+
+
+}
+
+
+.carta:first-child {
+
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("/media/milanesa1.jpg");
+
+}
+
+
+.carta:nth-child(2) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("/media/papas1.jpg");
+ 
+}
+
+
+.carta:nth-child(3) {
+
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("/media/pulled-pork1.jpg");
+
+}
+
+
+
+.carta .button {
+    
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+    border: 2px solid rgba(202, 202, 202, 0.3);
+    box-shadow: 2px 2px 10px rgba(92, 92, 92, 0.5);
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: 0 25%;
+}
+
+
+.button:hover {
+
+    background-color: rgba(60, 60, 60, 0.774);
+
+}
+
+
+.carta h3 {
+
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+
+
+.container {
+
+    text-align: left;
+    padding: 3em;
+   
+}
+
+
+.container h2 {
+
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+
+
+.sub-reset {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+
+}
+
+
+.sub-reset input {
+    
+    border-radius: 5px;
+    border: 2px solid rgba(202, 202, 202, 0.3);
+    box-shadow: 2px 2px 10px rgba(92, 92, 92, 0.5);
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.sub-reset input:hover {
+    
+    background-color: rgba(22, 22, 22, 0.771);
+}
+
+
+.form-container textarea {
+
+    resize: none;
+
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    text-align: center;
+    background-color: rgba(30, 30, 30, 0.853);
+    color: white;
+    height: 12vh;
+    box-sizing: content-box;
+
+}
+
+.logo-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+
+.logo-instagram {
+
+    align-items: right;
+    height: 1.5em;
+    width: 1.5em;
+    margin-right:5px;
+      
+}
+
+
+.insta {
+
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.insta:hover {
+
+    color: rgba(130, 128, 128, 0.741);
+
+}
+
+
+.f-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+.f-container p {
+
+    color: white;
+    margin: .3em;
+}
+
+/*formato para tablet*/
+@media only screen and (max-height: 600px) {
+    .header {
+        height: 15%;
+
+    }
+
+    .principal {
+        height: 110vh;
+    }
+
+    .footer {
+        height: 5%;
+    }
+
+}
+
+/*formato medium devices*/
+@media only screen and (min-width: 850px) {
+
+    .header .logo {
+        font-size: 2em;
+        padding: 0.1em;
+    }
+
+    .nav {
+        font-size: 1em;
+        padding: 0.5em;
+    }
+    .principal {
+       
+        height: 115vh; 
+    }
+    
+    .principal h1 {
+        font-size: 4em;
+        margin-top: 1em;
+    }
+
+    .body {
+        font-size: 1.2em;
+    }
+    .sucursales {
+        display: flex;
+        justify-content: center;
+   
+    }
+
+        
+    .sucursales-container .carta {
+        
+        justify-content: space-between;
+        background-position: center;
+        background-size: cover;
+        padding: 10%;
+        margin: 2%;
+        border-radius: 15px;
+        
+    
+    }
+
+    .sucursales-container {
+        
+        padding: 6em;
+        text-align: center;
+        background-color: rgb(30, 30, 30);
+        color: white;
+    
+    }
+    
+    
+    .sucursales-container h2 {
+        
+        font-size: 3em;
+        margin-bottom: 0.5em;
+    
+    }
+
+    .carta h3 {
+        width: 115px;
+    }
+
+
+    .carta .button {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    
+    .somos-happens .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .somos-happens .texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+      
+    }
+
+    .somos-happens h2 {
+        
+        margin-top: 0px;
+    }
+
+    .somos-happens .img-container {
+        background-image: url("/media/happens-love.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    .container .img-contacto {
+      
+            background-image: url("/media/contacto.jpg");
+            background-size: cover;
+            background-position: center center;
+            height: 500px;
+            width: 400px;
+        
+    }
+
+    .container-form {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .form-container {
+        width: 50%;
+    }
+}

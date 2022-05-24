@@ -1,0 +1,274 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+/*Header*/
+.header {
+    position: fixed;
+    height: 11%;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    z-index: 1;
+
+}
+
+
+.header .logo {
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 0.3em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1.6em;
+
+}
+
+
+.nav {
+    
+    display: flex;
+    padding: 0.2em;
+    text-decoration: none;
+    width: 100vw;
+    background-color: black;
+    justify-content: space-evenly;
+
+}
+
+
+.header a {
+
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.header a:hover{
+
+    color: rgba(143, 143, 143, 0.813);
+}
+
+
+.principal {
+    
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 1.1em;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.listas li{
+
+    list-style-type: none;
+
+}
+
+
+
+/*main*/
+.ubicacion {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 100vh;
+        
+}
+
+
+.iframe {
+    padding-top: 5%;
+}
+
+
+.horarios h2, .salud h2 {
+
+    margin-bottom: 1em;
+
+}
+.horarios , .salud {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    text-align: center;
+    color: white;
+    background-color: rgb(30, 30, 30);
+}
+
+
+.salud {
+    background-color: rgb(255, 255, 255);
+    color: black;
+   
+}
+
+
+.listas {
+    list-style-type: disc;
+}
+
+.inicio {
+    
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.inicio a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.inicio a:hover {
+    color: rgba(30, 30, 30, 0.834);
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: 12vh;
+    box-sizing: content-box;
+
+}
+
+.logo-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+
+.logo-instagram {
+
+    align-items: right;
+    height: 1.5em;
+    width: 1.5em;
+    margin-right:5px;
+      
+}
+
+
+.insta {
+
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    
+}
+
+
+.insta:hover {
+
+    color: rgba(130, 128, 128, 0.741);
+
+}
+
+
+.f-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: black;
+
+}
+
+
+.f-container p {
+
+    color: white;
+    margin: .3em;
+}
+
+@media only screen and (min-width: 850px) {
+
+    .principal {
+    
+        font-size: 1.2em;
+    
+    }
+    
+    .header .logo {
+
+        font-size: 2em;
+    
+    }
+
+    .nav {
+    
+        padding: 0.5em;
+        font-size: 1em;
+
+    } 
+    
+
+    .titulo-seccion {
+        font-size: 2.5rem;
+        margin-top: 5%;
+    }
+    .horarios {
+
+        height: 50%;
+
+    }
+    .container-seccion {
+        margin: 2% 4% 4%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 2rem;
+        
+    }
+
+    .listas {
+        text-align: left;
+    }
+    .img-horarios {
+      
+        background-image: url("/media/atencion.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        width: 550px;
+        margin-left: 6%;
+        margin-right: 6%;
+
+    }
+
+    .salud {
+   
+            height: 40%;
+    
+    }
+    .img-salud {
+      
+        background-image: url("/media/salud.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        width: 650px;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+
+}
