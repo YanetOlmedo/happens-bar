@@ -136,17 +136,25 @@
     color: rgba(30, 30, 30, 0.834);
 }
 
-/*footer*/
+
 .footer {
     display: flex;
     flex-direction: column;
     padding-top: 5%;
     text-align: center;
-    background-color: rgb(30, 30, 30);
+    background-color: rgba(30, 30, 30, 0.853);
     color: white;
     height: 12vh;
     box-sizing: content-box;
 
+}
+
+.footer h3 {
+    font-size: calc(1.3rem + .6vw);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .logo-link {
@@ -172,7 +180,7 @@
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
-    color: black;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -189,7 +197,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 
 }
 
@@ -198,6 +206,13 @@
 
     color: white;
     margin: .3em;
+}
+
+@media only screen and (max-height: 600px) {
+    
+    .footer {
+        height: 5%;
+    }
 }
 
 @media only screen and (min-width: 850px) {
@@ -244,7 +259,7 @@
     }
     .img-horarios {
       
-        background-image: url("/media/atencion.jpg");
+        background-image: url("../media/atencion.jpg");
         background-size: cover;
         background-position: center;
         height: 350px;
@@ -261,7 +276,7 @@
     }
     .img-salud {
       
-        background-image: url("/media/salud.jpg");
+        background-image: url("../media/salud.jpg");
         background-size: cover;
         background-position: center;
         height: 400px;

@@ -84,7 +84,7 @@
     height: 90vh;
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("/media/aperol-spritz.jpg");
+            rgba(0, 0, 0, 0.5)), url("../media/aperol-spritz.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -197,7 +197,7 @@
 
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("/media/milanesa1.jpg");
+            rgba(0, 0, 0, 0.5)), url("../media/milanesa1.jpg");
 
 }
 
@@ -205,7 +205,7 @@
 .carta:nth-child(2) {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("/media/papas1.jpg");
+            rgba(0, 0, 0, 0.5)), url("../media/papas1.jpg");
  
 }
 
@@ -214,7 +214,7 @@
 
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("/media/pulled-pork1.jpg");
+            rgba(0, 0, 0, 0.5)), url("../media/pulled-pork1.jpg");
 
 }
 
@@ -476,7 +476,7 @@
     }
 
     .somos-happens .img-container {
-        background-image: url("/media/happens-love.jpg");
+        background-image: url("../media/happens-love.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -485,7 +485,7 @@
 
     .container .img-contacto {
       
-            background-image: url("/media/contacto.jpg");
+            background-image: url("../media/contacto.jpg");
             background-size: cover;
             background-position: center center;
             height: 500px;
