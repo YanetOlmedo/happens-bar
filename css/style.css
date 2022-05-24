@@ -376,6 +376,7 @@
 
     .footer {
         height: 5%;
+        padding-bottom: 2%;
     }
 
 }
@@ -450,6 +451,7 @@
         margin: 0;
         width: 100%;
     }
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -500,5 +502,10 @@
 
     .form-container {
         width: 50%;
+    }
+
+    .footer {
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 }
