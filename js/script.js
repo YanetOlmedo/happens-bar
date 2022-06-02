@@ -35,7 +35,7 @@ const validarFormulario = (e) => {
         break;
 
     }
-
+    
 }
 
 const validarCampo = (expresion, input, campo) => {
@@ -57,7 +57,8 @@ inputs.forEach((input) => {
 
 formulario.addEventListener('submit', (e) => {
 	e.preventDefault();
-    formulario.reset(); 
+    alert("El mensaje fue enviado con éxito");
+    formulario.reset();
 
 });
 
